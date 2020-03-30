@@ -61,9 +61,9 @@
         <TextBox Grid.Row="4" Grid.Column="1" GotFocus="TextBox_GotFocus" HorizontalAlignment="Center" Text="please enter your equations" BorderThickness="1" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" ></TextBox>
         <!--<Image Grid.Row="5" Grid.ColumnSpan="2"  Source="Images/thumbsUp.jpg" Stretch="Uniform" HorizontalAlignment="Center"/>-->
         <Image Margin="12,12,16,71" Name="imgPhoto"
-        Stretch="Fill" Grid.Column="1" Grid.Row="5" />
-        <Button Height="23" HorizontalAlignment="Left"
-        Margin="12,10,10,34" Name="btnLoad" VerticalAlignment="Bottom"
+        Stretch="Uniform" Grid.Column="1" Grid.Row="5" MinWidth="400" />
+        <Button Height="23" HorizontalAlignment="Center" VerticalAlignment="Center" 
+        Margin="12,10,10,34" Name="btnLoad"
         Width="75" Grid.Column="0" Grid.Row="5" Click="btnLoad_Click">_Load</Button>
 
     </Grid>
